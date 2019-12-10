@@ -9,3 +9,9 @@ def oxford_comma(array)
   "#{array[0]}, #{array[1]}, #{array[2]}, #{array[3]}, #{array[4]}, and #{array[5]}"
  end
 end
+
+# make a little method that does each something
+
+def oxford_comma(array)
+  
+end
