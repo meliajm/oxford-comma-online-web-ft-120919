@@ -18,6 +18,7 @@ require 'pry'
 
 def oxford_comma(array)
   # array.each_with_index do |fruit, index|
+  array
   comma_string = array.join(", ")
   # binding.pry  
 end 
