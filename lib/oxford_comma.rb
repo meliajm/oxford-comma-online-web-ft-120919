@@ -14,9 +14,10 @@
 
 # array to string
 # join to go from array to string with commas, then add and
+
 def oxford_comma(array)
-  array.each_with_index do |fruit, index|
-    
+  # array.each_with_index do |fruit, index|
+  array.join(",")
     
 end 
 
