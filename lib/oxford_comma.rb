@@ -19,7 +19,7 @@ require 'pry'
 def oxford_comma(array)
   # array.each_with_index do |fruit, index|
   array = array.insert(-2, "and")
-  a.insert(2, 99) 
+  # a.insert(2, 99) 
   comma_string = array.join(", ")
   # binding.pry  
 end 
