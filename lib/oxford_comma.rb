@@ -14,7 +14,7 @@ require 'pry'
 # make a little method that does each something 
 
 # array to string
-# join to go from array to string with commas, then add and
+# first add and join to go from array to string with commas, 
 
 def oxford_comma(array)
   # array.each_with_index do |fruit, index|
