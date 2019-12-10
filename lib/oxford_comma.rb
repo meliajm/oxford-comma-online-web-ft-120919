@@ -21,7 +21,8 @@ def oxford_comma(array)
   array = array.insert(-2, "and")
   # a.insert(2, 99) 
   comma_string = array.join(", ")
-  # binding.pry  
+  # binding.pry 
+  comma_string.reverse.sub(", ", " ").reverse
 end 
 
 
