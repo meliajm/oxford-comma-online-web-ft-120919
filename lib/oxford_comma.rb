@@ -10,7 +10,8 @@
 # end
 # end
 
-# make a little method that does each something
+# make a little method that does each something 
+# array to string
 
 def oxford_comma(array)
   array.each_with_index do |fruit, index|
