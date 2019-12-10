@@ -17,7 +17,7 @@
 
 def oxford_comma(array)
   # array.each_with_index do |fruit, index|
-  array.join(",")
+  comma_string = array.join(",")
     
 end 
 
