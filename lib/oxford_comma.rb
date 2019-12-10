@@ -29,7 +29,7 @@ def oxford_comma(array)
   # a.insert(2, 99) 
     comma_string = array.join(", ")
   
-    comma_string.reverse.sub(",", " ").reverse
+    comma_string.reverse.sub(",", "").reverse
   end
 end 
 
